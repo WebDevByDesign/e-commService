@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.5.2",
+    "sequelize": "^6.32.1"
+  },
+  "name": "e-commservice",
+  "description": "e-commerce backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run seed",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "missblasko"
+  },
+  "author": "Rachael Blasko",
+  "license": "ISC"
+}
